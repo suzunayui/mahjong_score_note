@@ -9,9 +9,17 @@ dependencies:
   sqflite: ^2.0.0
   path: ^1.8.0
   cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0  # 最新バージョンに更新
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
 flutter:
   uses-material-design: true
+fonts:
+  - family: Roboto
+    fonts:
+      - asset: fonts/Roboto-Regular.ttf
+        weight: 400
+      - asset: fonts/Roboto-Bold.ttf
+        weight: 700
